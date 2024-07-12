@@ -38,6 +38,9 @@ export default {
       borderWidth: {
         3: "3px",
       },
+      boxShadow: {
+        custom: "0 2px 6px  rgba(0, 0, 0, 0.1), 0 2px 4px  rgba(0, 0, 0, 0.1)",
+      },
     },
   },
   plugins: [require("@tailwindcss/aspect-ratio")],

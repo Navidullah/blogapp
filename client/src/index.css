@@ -51,6 +51,10 @@ a {
   max-width: 1440px;
   margin: 0 auto;
 }
+.login {
+  max-width: 1020px;
+  margin: 0 auto;
+}
 .text_info {
   margin: 0 auto;
 }
