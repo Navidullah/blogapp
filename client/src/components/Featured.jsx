@@ -23,7 +23,8 @@ const Featured = () => {
   return (
     <div className="max-container">
       <h1 className="w-full font-Roboto text-left text-8xl max-lg:text-3xl">
-        <b>Hey, I am here!</b> Discover my stories and creative ideas
+        <b className="text-coral-red">Hey, I am here!</b> Discover my stories
+        and creative ideas
       </h1>
       <div className="grid grid-cols-1 md:grid-cols-2 mt-[60px] gap-4 items-center">
         <div id="image_box" className=" relative flex-1 flex h-[700px]">
