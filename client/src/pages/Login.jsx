@@ -39,8 +39,8 @@ const Login = () => {
     }
   };
   return (
-    <div className="max-container flex items-center flex-wrap  mt-8 h-screen ">
-      <div className="flex-1 ">
+    <div className="max-container flex flex-wrap items-center  mt-8 h-screen ">
+      <div className="flex-grow ">
         <h1 className="bg-orange-500 text-white p-4 rounded-lg w-max text-5xl">
           ThePulse
         </h1>
@@ -52,7 +52,7 @@ const Login = () => {
         </h1>
       </div>
       <form
-        className="flex-1  px-10 py-[90px] shadow-custom  bg-white rounded-lg"
+        className="flex-grow  px-10 py-[90px] shadow-custom  bg-white rounded-lg"
         onSubmit={handleSubmit}
       >
         <h1 className="text-4xl text-center w-full mb-8 font-Poppins ">

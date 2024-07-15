@@ -8,6 +8,8 @@ import Login from "./pages/Login.jsx";
 import Logout from "./pages/Logout.jsx";
 import Contact from "./pages/Contact.jsx";
 import BlogPage from "./pages/BlogPage.jsx";
+import Signin from "./pages/Signin.jsx";
+
 function App() {
   return (
     <Router>
@@ -17,6 +19,7 @@ function App() {
         <Route path="/contact" element={<Contact />}></Route>
         <Route path="/write" element={<Write />}></Route>
         <Route path="/login" element={<Login />}></Route>
+        <Route path="/signin" element={<Signin />} />
         <Route path="/logout" element={<Logout />}></Route>
         <Route path="/blogpage" element={<BlogPage />}></Route>
       </Routes>
