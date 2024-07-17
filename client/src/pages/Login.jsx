@@ -102,7 +102,7 @@ const Login = () => {
           </div>
           <span className="text-lg">
             Already Have an Account?
-            <Link to="/" className="text-xl font-semibold text-blue-500">
+            <Link to="/signin" className="text-xl font-semibold text-blue-500">
               {" "}
               Sign in
             </Link>
