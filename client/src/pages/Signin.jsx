@@ -101,7 +101,10 @@ const Signin = () => {
           >
             {loading ? <span>Loading...</span> : "Sign in"}
           </button>
-          <div className="flex justify-center items-center  bg-coral-blue text-white py-1 text-xl rounded-md">
+          <div
+            to="/"
+            className="flex justify-center items-center  bg-coral-blue text-white py-1 text-xl rounded-md"
+          >
             <Oath />
           </div>
           <span className="text-lg">

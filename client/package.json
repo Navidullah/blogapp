@@ -16,6 +16,8 @@
     "@tailwindcss/aspect-ratio": "^0.4.2",
     "env": "^0.0.2",
     "firebase": "^10.12.2",
+    "flowbite": "^2.4.1",
+    "flowbite-react": "^0.10.1",
     "gsap": "^3.12.5",
     "quill": "^2.0.2",
     "react": "^18.2.0",

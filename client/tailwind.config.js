@@ -43,5 +43,5 @@ export default {
       },
     },
   },
-  plugins: [require("@tailwindcss/aspect-ratio")],
+  plugins: [require("@tailwindcss/aspect-ratio"), require("flowbite/plugin")],
 };
